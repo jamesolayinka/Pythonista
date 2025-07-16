@@ -40,7 +40,7 @@ def fetch_from_anu(length: int = 1, number_type: Literal['uint8', 'uint16'] = 'u
 
 def save_to_file(data: List[int], file_path: str) -> None:
     """
-    Save list of numbers to a text file.
+    Save list of numbers to a json file.
     Args:
         data (List[int]): Random number list.
         file_path (str): Output file path.
